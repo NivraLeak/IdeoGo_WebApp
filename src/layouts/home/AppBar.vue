@@ -5,20 +5,20 @@
       app
       color="white"
       elevation="1"
-      height="80"
+      height="60"
     >
       <base-img
-        :src="require('@/assets/logo.svg')"
+        :src="require('@/assets/logoNPix.png')"
         class="mr-3 hidden-xs-only"
         contain
-        max-width="52"
+        max-width="58"
         width="100%"
       />
 
       <base-img
-        :src="require('@/assets/zero-logo-light.svg')"
+        :src="require('@/assets/logoNPix2.png')"
         contain
-        max-width="128"
+        max-width="130"
         width="100%"
       />
 
@@ -73,6 +73,7 @@
         'About',
         'Contact',
         'Pro',
+        'Login',
       ],
     }),
   }
