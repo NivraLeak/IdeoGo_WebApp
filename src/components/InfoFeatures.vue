@@ -17,11 +17,11 @@
 
     data: () => ({
       features: [
-        'Zero Installation',
+        'Ideogo Installation',
         'Easy Customization',
-        'User Friendly Design',
-        '24/7 Support Desk',
-        'SEO Optimized',
+        'Friendly Design',
+        '24/7 Support ',
+        'Ideogo Optimized',
       ],
     }),
   }

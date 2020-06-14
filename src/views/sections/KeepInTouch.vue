@@ -9,8 +9,8 @@
           cols="12"
           md="5"
         >
-          <base-business-info title="KEEP IN TOUCH WITH US">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo pariatur quidem, quis modi iure nihil commodi suscipit, corporis dicta adipisci, voluptatum quia cupiditate.
+          <base-business-info title="Envianos Un Mensaje">
+            No solo confíe en nuestra palabra, echa un vistazo a algunos de nuestros últimos trabajos.
           </base-business-info>
         </v-col>
 
@@ -18,7 +18,7 @@
           cols="12"
           md="6"
         >
-          <base-contact-form title="MAIL US YOUR MESSAGE" />
+          <base-contact-form title="Envianos Un Mensaje" />
         </v-col>
       </v-row>
     </v-container>
