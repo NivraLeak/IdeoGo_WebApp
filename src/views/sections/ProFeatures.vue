@@ -9,7 +9,7 @@
     />
 
     <base-section-heading title="Feature Comparison">
-      Get the PRO version of <strong>Zero</strong> and level up your theme<br>with additional components, pages, and Free updates.
+      Obtiene la version Pro <strong>Ideogo</strong> y sube de nivel en nuestra plataforma<br>con componentes y mas caracteristicas solo para usuarios premium.
     </base-section-heading>
 
     <v-container>
@@ -26,10 +26,10 @@
               <tr>
                 <th />
                 <th class="body-1 font-weight-bold text-center">
-                  What's in the Demo?
+                  Free
                 </th>
                 <th class="body-1 font-weight-bold text-center">
-                  What's in the PRO version?
+                  Pro version
                 </th>
               </tr>
             </thead>
@@ -87,7 +87,7 @@
             <base-btn
               :tile="false"
               color="primary"
-              href="https://store.vuetifyjs.com/product/zero-theme-pro/?ref=vtyd-pro-page-features"
+              href="https://google.com"
               rounded
             >
               Buy Pro Now
@@ -109,13 +109,14 @@
 
     data: () => ({
       features: [
-        ['Components', 23, '40+'],
-        ['Example Pages', 3, 10],
-        ['Bugfixes and Issues', true, true],
-        ['Vue CLI Support', true, true],
-        ['News, Project, and Pricing Pages', false, true],
-        ['6 Months Free Updates', false, true],
-        ['Price', 'Free', '$60'],
+        ['Componentes', 23, '40+'],
+        ['Cantidad de visitas', 3, '50+'],
+        ['Tiempo limitado', true, true],
+        ['Reuniones', true, true],
+        ['News, Projects, and Pages', false, true],
+        ['6 meses gratis para subir projectos', false, true],
+        ['Price', 'Free', '$100'],
+        ['Cantidad de projectos', 2 , '5+'],
       ],
     }),
   }

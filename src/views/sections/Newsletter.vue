@@ -12,7 +12,7 @@
       >
         <base-title
           space="0"
-          title="GET OUR NEWSLETTER"
+          title="Te enviaremos un correo con mas detalles"
         />
 
         <v-responsive

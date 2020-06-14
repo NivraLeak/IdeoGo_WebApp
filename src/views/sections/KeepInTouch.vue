@@ -18,7 +18,7 @@
           cols="12"
           md="6"
         >
-          <base-contact-form title="Envianos Un Mensaje" />
+          <base-contact-form title="Envianos un mensaje" />
         </v-col>
       </v-row>
     </v-container>
