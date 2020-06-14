@@ -10,12 +10,12 @@
           <v-col cols="10">
             <base-title
               :space="$vuetify.breakpoint.mdAndUp ? 0 : 4"
-              title="HAVE QUESTIONS? LET US KNOW!"
+              title="¿ALGUNA DUDA O PREGUNTA? ACA PODEMOS ACLARAR TODAS SUS DUDA!"
             />
 
             <base-body space="0">
               <span class="white--text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor itaque modi ab accusantium architecto voluptates ipsa molestiae.
+               Tenemos un soporte las 24 horas del dia, contactanos si surge alguna duda.
               </span>
             </base-body>
           </v-col>

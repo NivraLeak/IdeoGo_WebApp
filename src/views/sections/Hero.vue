@@ -13,12 +13,12 @@
           max-width="700"
           width="100%"
         >
-          <base-heading title="PROMOTE YOUR BUSINESS WITH ZERO" />
+          <base-heading title="LA MEJOR PLATAFORMA PARA TUS PROYECTOS" />
 
           <base-body>
-            Infographic hypotheses influencer user experience Long madel ture gen-z paradigm shift client partner network product seilans solve management influencer analytics leverage virality.
-            incubator seed round massmarket.
-            buyer agile development growth hacking business-to-consumer ecosystem
+            Nosotros queremos que tus proyectos logren ser sostenibles y exitosos &
+            Ser tu primera opcion es nuestra finalidad, por ello nuestro modelo de internacionalización
+            es un modelo inclusivo para responder a las necesidades locales.
           </base-body>
 
           <div

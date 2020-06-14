@@ -36,23 +36,23 @@
       cards: [
         {
           icon: 'mdi-keyboard-outline',
-          title: 'Trendy Design',
-          text: 'Efficiently unleash media information without cross-media value. Quickly maximize value timely deliverables schemas.',
+          title: 'Design',
+          text: 'La aplicacion distribuira de manera eficiente los contornos de información importante para cada proyecto.',
         },
         {
           icon: 'mdi-camera-outline',
-          title: 'Photography',
-          text: 'Efficiently unleash media information without cross-media value. Quickly maximize value timely deliverables schemas.',
+          title: 'Your Identity',
+          text: 'Tu proyecto tendra tu propia identidad.',
         },
         {
           icon: 'mdi-pencil-outline',
-          title: 'Brand Making',
-          text: 'Efficiently unleash media information without cross-media value. Quickly maximize value timely deliverables schemas.',
+          title: 'Brand Identity',
+          text: 'Nuestro esfuerzo y eficacia nos caracterizan al momento de brindarte nuestro servicio.',
         },
         {
           icon: 'mdi-puzzle-outline',
           title: '24/7 Support',
-          text: 'Efficiently unleash media information without cross-media value. Quickly maximize value timely deliverables schemas.',
+          text: 'Contamos con un servicio de soporte las 24h, siempre que nos necesite podremos aclarar sus dudas.',
         },
       ],
     }),
