@@ -9,7 +9,7 @@
         <base-img
           :src="require(`@/assets/insta-${n}.jpg`)"
           color="grey lighten-1"
-          width="96"
+          width="95"
           tile
         />
       </v-col>
