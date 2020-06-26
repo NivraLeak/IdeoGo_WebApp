@@ -9,6 +9,7 @@ export default  new Router({
         { path: "/", name:"Dashboard", component: () => import("./components/Dashboard")},
         { path: "/Dashboard", name:"dashboard", component: () => import("./components/Dashboard")},
         { path: "/Login", name:"login",component: () => import("./view/Login")},
+        { path: "/profile", name:"profile",component: () => import("./view/Profile")},
 
     ]
 });
