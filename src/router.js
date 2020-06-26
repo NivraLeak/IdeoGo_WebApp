@@ -6,8 +6,9 @@ Vue.use(Router);
 export default  new Router({
     mode: "history",
     routes: [
-        { path: "/", alias: "/login", name:"login",component: () => import("./components/Login")},
+        { path: "/", name:"Dashboard", component: () => import("./components/Dashboard")},
         { path: "/Dashboard", name:"dashboard", component: () => import("./components/Dashboard")},
+        { path: "/Login", name:"login",component: () => import("./view/Login")},
 
     ]
 });
