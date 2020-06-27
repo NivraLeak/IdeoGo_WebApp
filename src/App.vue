@@ -1,26 +1,26 @@
+// App.vue
+
+// Application Main View
 <template>
-  <v-app>
-    <v-app-bar app dark color="primary">
-      <v-toolbar-title centered>IdeoGo</v-toolbar-title>
-    </v-app-bar>
-    <v-content>
-    <router-view></router-view>
-    </v-content>
-  </v-app>
+
+    <router-view/>
+
 </template>
 
 <script>
-
-
-export default {
-  name: 'App',
-
-  components: {
-
-  },
-
-  data: () => ({
-    //
-  }),
-};
+  export default {
+    name: 'App',
+    components: {},
+    computed: {
+      currentUser() {
+        return this.$store.state.auth.user;
+      }
+    },
+    methods: {
+      logout() {
+        this.$store.dispatch('auth/logout');
+        this.$router.push('/login');
+      }
+    }
+  }
 </script>
