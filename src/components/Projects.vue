@@ -122,8 +122,8 @@
                 },
                 {
                     name: 'Cupcake',
-                    calories: 305,
-                    fat: 3.7,
+                    calories: 306,
+                    fat: 3.8,
                     carbs: 67,
                     protein: 4.3,
                     sodium: 413,
