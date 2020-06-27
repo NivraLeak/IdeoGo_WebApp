@@ -6,9 +6,13 @@
                 <li class="nav-item"><router-link to="/home" class="nav-link"><font-awesome-icon icon="home"/> Home</router-link></li>
                 <li v-if="currentUser" class="nav-item"><router-link to="/users" class="nav-link">Users</router-link></li>
             </div>
+            <div class="navbar-nav mr-auto">
+                <li class="nav-item"><router-link to="/Dashboard" class="nav-link"><font-awesome-icon icon="dashboard"/> Dashboard</router-link></li>
+            </div>
             <di class="navbar-nav ml-auto">
                 <h1 href class="navbar-brand" @click.prevent >Ideo GO</h1>
             </di>
+
             <div v-if="!currentUser" class="navbar-nav ml-auto">
                 <li class="nav-item"><router-link to="/register" class="nav-link"><font-awesome-icon icon="user-plus"/> Sign Up</router-link></li>
                 <li class="nav-item"><router-link to="/login" class="nav-link"><font-awesome-icon icon="sign-in-alt"/> Sign In</router-link></li>
@@ -82,6 +86,7 @@
             logout() {
                 this.$store.dispatch('auth/logout');
                 this.$router.push('/login');
+                this.$router.push('/Dashboard');
             }
         }
     }
@@ -92,7 +97,6 @@
     .footer{
         position: fixed;
         bottom: 0;
-
     }
 
 

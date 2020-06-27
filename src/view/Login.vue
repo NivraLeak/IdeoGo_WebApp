@@ -83,29 +83,29 @@
 
         .card-container.card {
             max-width: 350px;
-            padding: 40px 40px;
+            padding: 30px 30px;
         }
 
         .card {
-            background-color: #f7f7f7;
+            background-color: #d4c3c3;
             padding: 20px 25px 30px;
             margin: 50px auto 25px;
             -moz-border-radius: 2px;
             -webkit-border-radius: 2px;
-            border-radius: 2px;
+            border-radius: 30px;
             -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
             -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
             box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
         }
 
         .profile-img-card {
-            width: 96px;
-            height: 96px;
+            width: 150px;
+            height: 150px;
             margin: 0 auto 10px;
             display: block;
             -moz-border-radius: 50px;
             -webkit-border-radius: 50px;
-            border-radius: 50px;
+            border-radius: 20px;
 
         }
     </style>
