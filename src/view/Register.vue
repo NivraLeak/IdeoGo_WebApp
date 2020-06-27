@@ -76,7 +76,7 @@
 </script>
 
 <style scoped>
-    label {
+label {
         display: block;
         margin-top: 10px;
     }
