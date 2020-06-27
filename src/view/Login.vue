@@ -75,8 +75,7 @@
         };
     </script>
 
-    <style scoped>
-        label {
+label {
             display: block;
             margin-top: 10px;
         }
@@ -87,7 +86,7 @@
         }
 
         .card {
-            background-color: #d4c3c3;
+            background-color: #BDBDBD;
             padding: 20px 25px 30px;
             margin: 50px auto 25px;
             -moz-border-radius: 2px;
