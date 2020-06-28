@@ -42,13 +42,13 @@
                     <Projects :projects="projects"></Projects>
                 </v-tab-item>
                 <v-tab-item>
-                    <Home></Home>
+                   <EditProfile></EditProfile>
                 </v-tab-item>
                 <v-tab-item>
                     <CreateProject></CreateProject>
                 </v-tab-item>
                 <v-tab-item>
-                    <EditProfile></EditProfile>
+                    <ProfileContent></ProfileContent>
                 </v-tab-item>
             </v-tabs-items>
         </v-main>
@@ -60,13 +60,18 @@
     import EditProfile from "@/components/EditProfile";
     import CreateProject from "@/components/CreateProject";
     import Projects from "@/components/Projects";
-    import Home from "../view/Home";
+    import ProfileContent from "./ProfileContent";
+    //import Home from "../view/Home";
+   // import BaseTable from "./BaseTable";
+   // import Profile from "../view/Profile";
     // import FindProject from "@/components/FindProject";
 
     export default {
         name: "Dashboard",
         components: {
-            Home,
+            ProfileContent,
+            //BaseTable,
+           // Home,
             Projects,
             //FindProject,
             CreateProject,
