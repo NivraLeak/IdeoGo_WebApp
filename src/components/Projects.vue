@@ -126,7 +126,7 @@
                     fat: 3.8,
                     carbs: 67,
                     protein: 4.3,
-                    sodium: 413,
+                    sodium: 415,
                     calcium: '3%',
                     iron: '8%',
                 },
