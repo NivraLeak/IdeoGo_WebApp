@@ -24,42 +24,256 @@
         </nav>
         <div class="container">
 
+            <div class="row mt-2">
+                <div class="col">
+                    <h4 class="text-center ">Proyectos nuevos</h4>
+
+                    <div class="row " >
+                        <div class="col pa-md-4 mx-lg-auto">
+                            <v-card class="d-inline-block mx-auto">
+                                <v-container>
+
+                                    <v-row justify="space-between">
+
+                                        <v-col cols="auto">
+                                            <h5 class="text-center ">Computacion</h5>
+                                            <v-img
+                                                    height="200"
+                                                    width="200"
+                                                    src="https://www.gruponw.com/nwlib6/includes/phpthumb/phpThumb.php?src=/imagenes/programm.png&w=700&f=png"
+                                            ></v-img>
+                                        </v-col>
+
+                                        <v-col
+                                                cols="auto"
+                                                class="text-center pl-0"
+                                        >
+                                            <v-row
+                                                    class="flex-column ma-5 fill-height"
+                                                    justify="center"
+                                            >
+                                                <h5 class="text-center ">Componentes</h5>
+                                                <v-col >
+                                                    <v-btn style="min-width:200px">
+                                                        Aplicaciones
+                                                    </v-btn>
+                                                </v-col>
+
+                                                <v-col >
+                                                    <v-btn style="min-width:200px">
+                                                        Redes
+                                                    </v-btn>
+                                                </v-col>
+
+                                                <v-col >
+                                                    <v-btn style="min-width:200px">
+                                                        Performance
+                                                    </v-btn>
+                                                </v-col>
+
+                                            </v-row>
+                                        </v-col>
+                                    </v-row>
+                                </v-container>
+                            </v-card>
+                        </div>
+
+                        <div class="col pa-md-4 mx-lg-auto">
+                            <v-card class="d-inline-block mx-auto">
+                                <v-container>
+
+                                    <v-row justify="space-between">
+
+                                        <v-col cols="auto">
+                                            <h5 class="text-center ">Industria</h5>
+                                            <v-img
+                                                    height="200"
+                                                    width="200"
+                                                    src="https://www.limawell.edu.pe/wp-content/uploads/2018/02/industria-4.0.jpg"
+                                            ></v-img>
+                                        </v-col>
+
+                                        <v-col
+                                                cols="auto"
+                                                class="text-center pl-0"
+                                        >
+                                            <v-row
+                                                    class="flex-column ma-5 fill-height"
+                                                    justify="center"
+                                            >
+                                                <h5 class="text-center ">Procesos</h5>
+                                                <v-col >
+                                                    <v-btn style="min-width:200px">
+                                                        Produccion
+                                                    </v-btn>
+                                                </v-col>
+
+                                                <v-col >
+                                                    <v-btn style="min-width:200px">
+                                                        Calidad
+                                                    </v-btn>
+                                                </v-col>
+
+                                                <v-col style="min-width:200px">
+                                                    <v-btn >
+                                                        Productos Nuevos
+                                                    </v-btn>
+                                                </v-col>
+                                            </v-row>
+                                        </v-col>
+                                    </v-row>
+                                </v-container>
+                            </v-card>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col pa-md-4 mx-lg-auto">
+                            <v-card class="d-inline-block mx-auto">
+                                <v-container>
+
+                                    <v-row justify="space-between">
+
+                                        <v-col cols="auto">
+                                            <h5 class="text-center ">Ambiente</h5>
+                                            <v-img
+                                                    height="200"
+                                                    width="200"
+                                                    src="https://cde.laprensa.e3.pe/ima/0/0/2/3/5/235222.jpg"
+                                            ></v-img>
+                                        </v-col>
+
+                                        <v-col
+                                                cols="auto"
+                                                class="text-center pl-0"
+                                        >
+                                            <v-row
+                                                    class="flex-column ma-5 fill-height"
+                                                    justify="center"
+                                            >
+                                                <h5 class="text-center ">Contaminacion</h5>
+                                                <v-col >
+                                                    <v-btn style="min-width:200px">
+                                                        Glaciares
+                                                    </v-btn>
+                                                </v-col>
+
+                                                <v-col >
+                                                    <v-btn style="min-width:200px">
+                                                        Playas
+                                                    </v-btn>
+                                                </v-col>
+
+                                                <v-col >
+                                                    <v-btn style="min-width:200px">
+                                                        Bosques
+                                                    </v-btn>
+                                                </v-col>
+                                            </v-row>
+                                        </v-col>
+                                    </v-row>
+                                </v-container>
+                            </v-card>
+                        </div>
+
+                        <div class="col pa-md-4 mx-lg-auto">
+                            <v-card class="d-inline-block mx-auto">
+                                <v-container>
+
+                                    <v-row justify="space-between">
+
+                                        <v-col cols="auto">
+                                            <h5 class="text-center ">Musica</h5>
+                                            <v-img
+                                                    height="200"
+                                                    width="200"
+                                                    src="https://previews.123rf.com/images/abstract412/abstract4121711/abstract412171100008/89064788-dise%C3%B1o-de-carteles-de-m%C3%BAsica-con-cerebro-humano-con-cremallera-y-notas-musicales-coloridas-concepto-de-crea.jpg"
+                                            ></v-img>
+                                        </v-col>
+
+                                        <v-col
+                                                cols="auto"
+                                                class="text-center pl-0"
+                                        >
+                                            <v-row
+                                                    class="flex-column ma-5 fill-height"
+                                                    justify="center"
+                                            >
+                                                <h5 class="text-center ">Electronica</h5>
+                                                <v-col >
+                                                    <v-btn style="min-width:200px">
+                                                        Clasica
+                                                    </v-btn>
+                                                </v-col>
+
+                                                <v-col >
+                                                    <v-btn style="min-width:200px">
+                                                        Banda
+                                                    </v-btn>
+                                                </v-col>
+
+                                                <v-col >
+                                                    <v-btn style="min-width:200px">
+                                                        Orquesta
+                                                    </v-btn>
+                                                </v-col>
+                                            </v-row>
+                                        </v-col>
+                                    </v-row>
+                                </v-container>
+                            </v-card>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
 
         </div>
-        <v-footer
-                dark
-                padless
-                class="footer"
-        >
-            <v-card
-                    flat
-                    tile
-                    class="indigo lighten-1 white--text text-center"
-            >
-                <v-card-text>
-                    <v-btn
-                            v-for="icon in icons"
-                            :key="icon"
-                            class="mx-4 white--text"
-                            icon
-                    >
-                        <v-icon size="24px">{{ icon }}</v-icon>
-                    </v-btn>
-                </v-card-text>
 
-                <v-card-text class="white--text pt-0">
-                    LA MEJOR PLATAFORMA PARA PODER SUBIR TUS PROYECTOS
-                    Nosotros queremos que tus proyectos logren ser sostenibles y exitosos &
-                    Ser tu primera opcion es nuestra finalidad, por ello nuestro modelo de internacionalización es un modelo inclusivo para responder a las necesidades locales.
-                </v-card-text>
+        <div >
+            <v-card height="150">
+                <v-footer
+                        absolute
+                        class="font-weight-medium"
+                >
+                    <div class="footer">
+                        <v-card
+                                flat
+                                tile
+                                class="indigo lighten-1 white--text text-center"
+                        >
 
-                <v-divider></v-divider>
+                            <v-col
+                                    class="text-center"
+                                    cols="12"
+                            >
+                                {{ new Date().getFullYear() }} — <strong>Ideogo</strong>
+                            </v-col>
+                            <v-card-text class="white--text pt-0">
 
-                <v-card-text class="white--text">
-                    {{ new Date().getFullYear() }} — <strong>IdeoGo</strong>
-                </v-card-text>
+                                Nosotros queremos que tus proyectos logren ser sostenibles y exitosos &
+                                Ser tu primera opcion es nuestra finalidad, por ello nuestro modelo de internacionalización es un modelo inclusivo para responder a las necesidades locales.
+                            </v-card-text>
+                            <v-btn
+                                    v-for="icon in icons"
+                                    :key="icon"
+                                    class="mx-4 white--text"
+                                    icon
+                            >
+                                <v-icon size="20px">{{ icon }}</v-icon>
+                            </v-btn>
+
+
+                        </v-card>
+                    </div>
+
+
+                </v-footer>
             </v-card>
-        </v-footer>
+
+        </div>
+
     </div>
 </template>
 
