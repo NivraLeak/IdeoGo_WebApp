@@ -1,89 +1,212 @@
 <template>
-    <v-container fluid>
-        <v-data-iterator
-                :items="items"
-                :items-per-page.sync="itemsPerPage"
-                hide-default-footer
-        >
-            <template v-slot:header>
-                <v-toolbar
-                        class="mb-2"
-                        color="indigo darken-5"
-                        dark
-                        flat
-                >
-                    <v-toolbar-title>This is a header</v-toolbar-title>
-                </v-toolbar>
-            </template>
+    <div class="container">
 
-            <template v-slot:default="props">
-                <v-row>
-                    <v-col
-                            v-for="item in props.items"
-                            :key="item.name"
-                            cols="12"
-                            sm="6"
-                            md="4"
-                            lg="3"
-                    >
-                        <v-card>
-                            <v-card-title class="subheading font-weight-bold">{{ item.name }}</v-card-title>
+        <div class="row mt-2">
+            <div class="col">
+                <h4 class="text-center ">Proyectos nuevos</h4>
 
-                            <v-divider></v-divider>
+                <div class="row " >
+                    <div class="col pa-md-4 mx-lg-auto">
+                        <v-card class="d-inline-block mx-auto">
+                            <v-container>
 
-                            <v-list dense>
-                                <v-list-item>
-                                    <v-list-item-content>Calories:</v-list-item-content>
-                                    <v-list-item-content class="align-end">{{ item.calories }}</v-list-item-content>
-                                </v-list-item>
+                                <v-row justify="space-between">
 
-                                <v-list-item>
-                                    <v-list-item-content>Fat:</v-list-item-content>
-                                    <v-list-item-content class="align-end">{{ item.fat }}</v-list-item-content>
-                                </v-list-item>
+                                    <v-col cols="auto">
+                                        <h5 class="text-center ">Computacion</h5>
+                                        <v-img
+                                                height="200"
+                                                width="200"
+                                                src="https://www.gruponw.com/nwlib6/includes/phpthumb/phpThumb.php?src=/imagenes/programm.png&w=700&f=png"
+                                        ></v-img>
+                                    </v-col>
 
-                                <v-list-item>
-                                    <v-list-item-content>Carbs:</v-list-item-content>
-                                    <v-list-item-content class="align-end">{{ item.carbs }}</v-list-item-content>
-                                </v-list-item>
+                                    <v-col
+                                            cols="auto"
+                                            class="text-center pl-0"
+                                    >
+                                        <v-row
+                                                class="flex-column ma-5 fill-height"
+                                                justify="center"
+                                        >
+                                            <h5 class="text-center ">Componentes</h5>
+                                            <v-col >
+                                                <v-btn style="min-width:200px">
+                                                    Aplicaciones
+                                                </v-btn>
+                                            </v-col>
 
-                                <v-list-item>
-                                    <v-list-item-content>Protein:</v-list-item-content>
-                                    <v-list-item-content class="align-end">{{ item.protein }}</v-list-item-content>
-                                </v-list-item>
+                                            <v-col >
+                                                <v-btn style="min-width:200px">
+                                                    Redes
+                                                </v-btn>
+                                            </v-col>
 
-                                <v-list-item>
-                                    <v-list-item-content>Sodium:</v-list-item-content>
-                                    <v-list-item-content class="align-end">{{ item.sodium }}</v-list-item-content>
-                                </v-list-item>
+                                            <v-col >
+                                                <v-btn style="min-width:200px">
+                                                    Performance
+                                                </v-btn>
+                                            </v-col>
 
-                                <v-list-item>
-                                    <v-list-item-content>Calcium:</v-list-item-content>
-                                    <v-list-item-content class="align-end">{{ item.calcium }}</v-list-item-content>
-                                </v-list-item>
-
-                                <v-list-item>
-                                    <v-list-item-content>Iron:</v-list-item-content>
-                                    <v-list-item-content class="align-end">{{ item.iron }}</v-list-item-content>
-                                </v-list-item>
-                            </v-list>
+                                        </v-row>
+                                    </v-col>
+                                </v-row>
+                            </v-container>
                         </v-card>
-                    </v-col>
-                </v-row>
-            </template>
+                    </div>
 
-            <template v-slot:footer>
-                <v-toolbar
-                        class="mt-2"
-                        color="indigo"
-                        dark
-                        flat
-                >
-                    <v-toolbar-title class="subheading">This is a footer</v-toolbar-title>
-                </v-toolbar>
-            </template>
-        </v-data-iterator>
-    </v-container>
+                    <div class="col pa-md-4 mx-lg-auto">
+                        <v-card class="d-inline-block mx-auto">
+                            <v-container>
+
+                                <v-row justify="space-between">
+
+                                    <v-col cols="auto">
+                                        <h5 class="text-center ">Industria</h5>
+                                        <v-img
+                                                height="200"
+                                                width="200"
+                                                src="https://www.limawell.edu.pe/wp-content/uploads/2018/02/industria-4.0.jpg"
+                                        ></v-img>
+                                    </v-col>
+
+                                    <v-col
+                                            cols="auto"
+                                            class="text-center pl-0"
+                                    >
+                                        <v-row
+                                                class="flex-column ma-5 fill-height"
+                                                justify="center"
+                                        >
+                                            <h5 class="text-center ">Procesos</h5>
+                                            <v-col >
+                                                <v-btn style="min-width:200px">
+                                                    Produccion
+                                                </v-btn>
+                                            </v-col>
+
+                                            <v-col >
+                                                <v-btn style="min-width:200px">
+                                                    Calidad
+                                                </v-btn>
+                                            </v-col>
+
+                                            <v-col style="min-width:200px">
+                                                <v-btn >
+                                                    Productos Nuevos
+                                                </v-btn>
+                                            </v-col>
+                                        </v-row>
+                                    </v-col>
+                                </v-row>
+                            </v-container>
+                        </v-card>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col pa-md-4 mx-lg-auto">
+                        <v-card class="d-inline-block mx-auto">
+                            <v-container>
+
+                                <v-row justify="space-between">
+
+                                    <v-col cols="auto">
+                                        <h5 class="text-center ">Ambiente</h5>
+                                        <v-img
+                                                height="200"
+                                                width="200"
+                                                src="https://cde.laprensa.e3.pe/ima/0/0/2/3/5/235222.jpg"
+                                        ></v-img>
+                                    </v-col>
+
+                                    <v-col
+                                            cols="auto"
+                                            class="text-center pl-0"
+                                    >
+                                        <v-row
+                                                class="flex-column ma-5 fill-height"
+                                                justify="center"
+                                        >
+                                            <h5 class="text-center ">Contaminacion</h5>
+                                            <v-col >
+                                                <v-btn style="min-width:200px">
+                                                    Glaciares
+                                                </v-btn>
+                                            </v-col>
+
+                                            <v-col >
+                                                <v-btn style="min-width:200px">
+                                                    Playas
+                                                </v-btn>
+                                            </v-col>
+
+                                            <v-col >
+                                                <v-btn style="min-width:200px">
+                                                    Bosques
+                                                </v-btn>
+                                            </v-col>
+                                        </v-row>
+                                    </v-col>
+                                </v-row>
+                            </v-container>
+                        </v-card>
+                    </div>
+
+                    <div class="col pa-md-4 mx-lg-auto">
+                        <v-card class="d-inline-block mx-auto">
+                            <v-container>
+
+                                <v-row justify="space-between">
+
+                                    <v-col cols="auto">
+                                        <h5 class="text-center ">Musica</h5>
+                                        <v-img
+                                                height="200"
+                                                width="200"
+                                                src="https://previews.123rf.com/images/abstract412/abstract4121711/abstract412171100008/89064788-dise%C3%B1o-de-carteles-de-m%C3%BAsica-con-cerebro-humano-con-cremallera-y-notas-musicales-coloridas-concepto-de-crea.jpg"
+                                        ></v-img>
+                                    </v-col>
+
+                                    <v-col
+                                            cols="auto"
+                                            class="text-center pl-0"
+                                    >
+                                        <v-row
+                                                class="flex-column ma-5 fill-height"
+                                                justify="center"
+                                        >
+                                            <h5 class="text-center ">Electronica</h5>
+                                            <v-col >
+                                                <v-btn style="min-width:200px">
+                                                    Clasica
+                                                </v-btn>
+                                            </v-col>
+
+                                            <v-col >
+                                                <v-btn style="min-width:200px">
+                                                    Banda
+                                                </v-btn>
+                                            </v-col>
+
+                                            <v-col >
+                                                <v-btn style="min-width:200px">
+                                                    Orquesta
+                                                </v-btn>
+                                            </v-col>
+                                        </v-row>
+                                    </v-col>
+                                </v-row>
+                            </v-container>
+                        </v-card>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
 </template>
 <script>
     export default {

@@ -1,17 +1,17 @@
 <template>
     <div id="app">
-        <nav class="navbar navbar-expand navbar-dark bg-dark ">
-
-            <div class="navbar-nav mr-auto">
+        <nav class="navbar navbar-expand navbar-light bg-info ">
+            <di class="navbar-nav mr-lg-0">
+                <h1 href class="navbar-brand" @click.prevent >Ideo GO</h1>
+            </di>
+            <div class="navbar-nav mr-lg-0">
                 <li class="nav-item"><router-link to="/home" class="nav-link"><font-awesome-icon icon="home"/> Home</router-link></li>
                 <li v-if="currentUser" class="nav-item"><router-link to="/users" class="nav-link">Users</router-link></li>
             </div>
-            <div class="navbar-nav mr-auto">
+            <div class="navbar-nav mr-lg-0">
                 <li class="nav-item"><router-link to="/Dashboard" class="nav-link"><font-awesome-icon icon="dashboard"/> Dashboard</router-link></li>
             </div>
-            <di class="navbar-nav ml-auto">
-                <h1 href class="navbar-brand" @click.prevent >Ideo GO</h1>
-            </di>
+
 
             <div v-if="!currentUser" class="navbar-nav ml-auto">
                 <li class="nav-item"><router-link to="/register" class="nav-link"><font-awesome-icon icon="user-plus"/> Sign Up</router-link></li>
@@ -22,6 +22,7 @@
                 <li class="nav-item"><a class="nav-link" href @click.prevent="logout"><font-awesome-icon icon="sign-out-alt"/> Sign Out</a></li>
             </div>
         </nav>
+
         <div class="container">
 
             <div class="row mt-2">
