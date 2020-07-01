@@ -75,50 +75,44 @@
 
                 <div class="row">
                     <div class="col pa-md-4 mx-lg-auto">
-                        <v-card class="d-inline-block mx-auto">
-                            <v-container>
+                        <v-card
+                                max-width="600"
+                                class="mx-auto"
+                        >
+                            <v-toolbar
+                                    color="indigo"
+                                    dark
+                            >
+                                <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
-                                <v-row justify="space-between">
+                                <v-toolbar-title>Collaborates</v-toolbar-title>
 
-                                    <v-col cols="auto">
-                                        <h5 class="text-center ">Ambiente</h5>
-                                        <v-img
-                                                height="200"
-                                                width="200"
-                                                src="https://cde.laprensa.e3.pe/ima/0/0/2/3/5/235222.jpg"
-                                        ></v-img>
-                                    </v-col>
+                                <v-spacer></v-spacer>
 
-                                    <v-col
-                                            cols="auto"
-                                            class="text-center pl-0"
-                                    >
-                                        <v-row
-                                                class="flex-column ma-5 fill-height"
-                                                justify="center"
-                                        >
-                                            <h5 class="text-center ">Contaminacion</h5>
-                                            <v-col >
-                                                <v-btn style="min-width:200px">
-                                                    Glaciares
-                                                </v-btn>
-                                            </v-col>
 
-                                            <v-col >
-                                                <v-btn style="min-width:200px">
-                                                    Playas
-                                                </v-btn>
-                                            </v-col>
+                                <v-btn icon>
+                                    <v-icon>mdi-dots-vertical</v-icon>
+                                </v-btn>
+                            </v-toolbar>
+                            <v-list>
+                                <v-list-item
+                                        v-for="item in itemCollaborator"
+                                        :key="item.title"
 
-                                            <v-col >
-                                                <v-btn style="min-width:200px">
-                                                    Bosques
-                                                </v-btn>
-                                            </v-col>
-                                        </v-row>
-                                    </v-col>
-                                </v-row>
-                            </v-container>
+                                >
+                                    <v-list-item-icon>
+                                        <v-icon v-if="item.icon" color="pink">mdi-star</v-icon>
+                                    </v-list-item-icon>
+
+                                    <v-list-item-content>
+                                        <v-list-item-title v-text="item.title"></v-list-item-title>
+                                    </v-list-item-content>
+
+                                    <v-list-item-avatar>
+                                        <v-img :src="item.avatar"></v-img>
+                                    </v-list-item-avatar>
+                                </v-list-item>
+                            </v-list>
                         </v-card>
                     </div>
 
@@ -205,6 +199,12 @@
                 events: [],
                 colors: ['blue', 'indigo', 'deep-purple', 'cyan', 'green', 'orange', 'grey darken-1'],
                 names: ['Meeting', 'Holiday', 'PTO', 'Travel', 'Event', 'Birthday', 'Conference', 'Party'],
+                itemCollaborator: [
+                    { icon: true, title: 'Jason Oner', avatar: 'https://cdn.vuetifyjs.com/images/lists/1.jpg' },
+                    { title: 'Travis Howard', avatar: 'https://cdn.vuetifyjs.com/images/lists/2.jpg' },
+                    { title: 'Ali Connors', avatar: 'https://cdn.vuetifyjs.com/images/lists/3.jpg' },
+                    { title: 'Cindy Baker', avatar: 'https://cdn.vuetifyjs.com/images/lists/4.jpg' },
+                ],
             }
         ),
         methods: {
