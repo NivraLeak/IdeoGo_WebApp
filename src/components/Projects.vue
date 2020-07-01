@@ -5,105 +5,6 @@
             <div class="col">
                 <h4 class="text-center ">Proyectos nuevos</h4>
 
-                <div class="row " >
-                    <div class="col pa-md-4 mx-lg-auto">
-                        <v-card class="d-inline-block mx-auto">
-                            <v-container>
-
-                                <v-row justify="space-between">
-
-                                    <v-col cols="auto">
-                                        <h5 class="text-center ">Computacion</h5>
-                                        <v-img
-                                                height="200"
-                                                width="200"
-                                                src="https://www.gruponw.com/nwlib6/includes/phpthumb/phpThumb.php?src=/imagenes/programm.png&w=700&f=png"
-                                        ></v-img>
-                                    </v-col>
-
-                                    <v-col
-                                            cols="auto"
-                                            class="text-center pl-0"
-                                    >
-                                        <v-row
-                                                class="flex-column ma-5 fill-height"
-                                                justify="center"
-                                        >
-                                            <h5 class="text-center ">Componentes</h5>
-                                            <v-col >
-                                                <v-btn style="min-width:200px">
-                                                    Aplicaciones
-                                                </v-btn>
-                                            </v-col>
-
-                                            <v-col >
-                                                <v-btn style="min-width:200px">
-                                                    Redes
-                                                </v-btn>
-                                            </v-col>
-
-                                            <v-col >
-                                                <v-btn style="min-width:200px">
-                                                    Performance
-                                                </v-btn>
-                                            </v-col>
-
-                                        </v-row>
-                                    </v-col>
-                                </v-row>
-                            </v-container>
-                        </v-card>
-                    </div>
-
-                    <div class="col pa-md-4 mx-lg-auto">
-                        <v-card class="d-inline-block mx-auto">
-                            <v-container>
-
-                                <v-row justify="space-between">
-
-                                    <v-col cols="auto">
-                                        <h5 class="text-center ">Industria</h5>
-                                        <v-img
-                                                height="200"
-                                                width="200"
-                                                src="https://www.limawell.edu.pe/wp-content/uploads/2018/02/industria-4.0.jpg"
-                                        ></v-img>
-                                    </v-col>
-
-                                    <v-col
-                                            cols="auto"
-                                            class="text-center pl-0"
-                                    >
-                                        <v-row
-                                                class="flex-column ma-5 fill-height"
-                                                justify="center"
-                                        >
-                                            <h5 class="text-center ">Procesos</h5>
-                                            <v-col >
-                                                <v-btn style="min-width:200px">
-                                                    Produccion
-                                                </v-btn>
-                                            </v-col>
-
-                                            <v-col >
-                                                <v-btn style="min-width:200px">
-                                                    Calidad
-                                                </v-btn>
-                                            </v-col>
-
-                                            <v-col style="min-width:200px">
-                                                <v-btn >
-                                                    Productos Nuevos
-                                                </v-btn>
-                                            </v-col>
-                                        </v-row>
-                                    </v-col>
-                                </v-row>
-                            </v-container>
-                        </v-card>
-                    </div>
-                </div>
-
                 <div class="row">
                     <div class="col pa-md-4 mx-lg-auto">
                         <v-card class="d-inline-block mx-auto">
@@ -202,59 +103,17 @@
                     </div>
                 </div>
 
+
             </div>
 
         </div>
 
     </div>
+
 </template>
 <script>
     export default {
-        data: () => ({
-            itemsPerPage: 4,
-            items: [
-                {
-                    name: 'Frozen Yogurt',
-                    calories: 159,
-                    fat: 6.0,
-                    carbs: 24,
-                    protein: 4.0,
-                    sodium: 87,
-                    calcium: '14%',
-                    iron: '1%',
-                },
-                {
-                    name: 'Ice cream sandwich',
-                    calories: 237,
-                    fat: 9.0,
-                    carbs: 37,
-                    protein: 4.3,
-                    sodium: 129,
-                    calcium: '8%',
-                    iron: '1%',
-                },
-                {
-                    name: 'Eclair',
-                    calories: 262,
-                    fat: 16.0,
-                    carbs: 23,
-                    protein: 6.0,
-                    sodium: 337,
-                    calcium: '6%',
-                    iron: '7%',
-                },
-                {
-                    name: 'Cupcake',
-                    calories: 306,
-                    fat: 3.8,
-                    carbs: 67,
-                    protein: 4.3,
-                    sodium: 415,
-                    calcium: '3%',
-                    iron: '8%',
-                },
-            ],
-        }),
+
     }
 </script>
 

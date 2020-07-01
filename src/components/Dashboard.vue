@@ -28,6 +28,10 @@
                         <v-icon left size="25">account_circle</v-icon>
                         <v-list-item-title class="hidden">Edit Profile</v-list-item-title>
                     </v-tab>
+                    <v-tab :class="title5" @click="setSelected('Edit_Project')">
+                        <v-icon left size="25">edit</v-icon>
+                        <v-list-item-title class="hidden">Edit Project</v-list-item-title>
+                    </v-tab>
                 </v-tabs>
                 <template v-slot:append>
                     <div class="pa-2">
@@ -61,6 +65,7 @@
     import CreateProject from "@/components/CreateProject";
     import Projects from "@/components/Projects";
     import ProfileContent from "./ProfileContent";
+    //import EditProject from "./EditProject";
     //import Home from "../view/Home";
    // import BaseTable from "./BaseTable";
    // import Profile from "../view/Profile";
@@ -75,7 +80,7 @@
             Projects,
             //FindProject,
             CreateProject,
-            EditProfile
+            EditProfile,
         },
         props: {},
         data: () => ({
@@ -85,6 +90,7 @@
             title2: 'title',
             title3: 'title',
             title4: 'title',
+            title5: 'title',
             errors: [],
             tab: null,
             isHidden: true,
@@ -111,12 +117,14 @@
                     this.title2 = "title";
                     this.title3 = "title-selected";
                     this.title4 = "title";
+                    this.title5 = "title";
                 }
                 if (info === 'Dashboard') {
                     this.title1 = "title-selected";
                     this.title2 = "title";
                     this.title3 = "title";
                     this.title4 = "title";
+                    this.title5 = "title";
                 }
 
                 if (info === 'My Projects') {
@@ -124,6 +132,8 @@
                     this.title2 = "title-selected";
                     this.title3 = "title";
                     this.title4 = "title";
+                    this.title5 = "title";
+
                 }
 
                 if (info === 'Edit_Profile') {
@@ -131,6 +141,16 @@
                     this.title2 = "title";
                     this.title3 = "title";
                     this.title4 = "title-selected";
+                    this.title5 = "title";
+
+                }
+                if (info === 'Edit_Project') {
+                    this.title1 = "title";
+                    this.title2 = "title";
+                    this.title3 = "title";
+                    this.title4 = "title";
+                    this.title5 = "title-selected";
+
                 }
                 return this.selected;
             },

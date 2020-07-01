@@ -179,6 +179,7 @@
 </template>
 <script>
     export default {
+        name: "EditProject",
         data: () => (
             {
                 items: [
@@ -243,4 +244,3 @@
     }
 
 </script>
-
