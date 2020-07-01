@@ -12,6 +12,7 @@ import Login from "./view/Login";
 import Dashboard from "./components/Dashboard";
 import EditProfile from "./components/EditProfile";
 import Project from "./view/Project";
+import EditProject from "./components/EditProject";
 
 
 Vue.use(Router);
@@ -27,6 +28,7 @@ const router = new Router({
         {path: '/EditProfile', name: 'editProfile', component: EditProfile},
         {path: '/Project', name: 'project', component: Project},
         {path: '/Dashboard', name:'dashboard', component: Dashboard},
+        {path: '/EditProject', name:'editProject', component: EditProject},
     ]
 });
 

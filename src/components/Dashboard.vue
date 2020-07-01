@@ -54,6 +54,9 @@
                 <v-tab-item>
                     <ProfileContent></ProfileContent>
                 </v-tab-item>
+                <v-tab-item>
+                    <EditProject></EditProject>
+                </v-tab-item>
             </v-tabs-items>
         </v-main>
     </v-app>
@@ -65,7 +68,7 @@
     import CreateProject from "@/components/CreateProject";
     import Projects from "@/components/Projects";
     import ProfileContent from "./ProfileContent";
-    //import EditProject from "./EditProject";
+    import EditProject from "./EditProject";
     //import Home from "../view/Home";
    // import BaseTable from "./BaseTable";
    // import Profile from "../view/Profile";
@@ -81,6 +84,7 @@
             //FindProject,
             CreateProject,
             EditProfile,
+            EditProject,
         },
         props: {},
         data: () => ({

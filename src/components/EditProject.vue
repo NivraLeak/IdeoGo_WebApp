@@ -1,12 +1,12 @@
 <template>
     <div class="container">
-
+        <v-card-title class="justify-start">Edit Project</v-card-title>
         <div class="row mt-2">
             <div class="col">
                 <h4 class="text-center ">Tus Proyectos</h4>
 
                 <div class="row " >
-                    <div>
+                    <div class="col pa-md-4 mx-lg-auto">
                         <v-sheet
                                 tile
                                 height="54"

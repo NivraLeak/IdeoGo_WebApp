@@ -1,9 +1,11 @@
 <template>
+
     <v-card>
         <v-toolbar
                 flat
                 color="blue-grey"
                 dark
+                max-width="800"
         >
             <v-toolbar-title>Name your project</v-toolbar-title>
         </v-toolbar>
