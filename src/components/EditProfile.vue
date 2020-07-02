@@ -118,7 +118,7 @@
                            color="#de9c3a">Next
                     </v-btn>
                     <v-btn v-if="showAcademic" :class="saveButton" @click="saveClick" bottom center class="white--text"
-                           color="#dbbc3c">Save Changes
+                           color="##de9c3a">Save Changes
                     </v-btn>
                 </v-col>
             </v-card-actions>
