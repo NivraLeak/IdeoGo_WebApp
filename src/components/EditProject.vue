@@ -80,7 +80,7 @@
                                 class="mx-auto"
                         >
                             <v-toolbar
-                                    color="indigo"
+                                    color="blue"
                                     dark
                             >
                                 <v-app-bar-nav-icon></v-app-bar-nav-icon>
