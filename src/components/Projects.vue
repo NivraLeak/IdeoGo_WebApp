@@ -32,19 +32,19 @@
                                             <h5 class="text-center ">Contaminacion</h5>
                                             <v-col >
                                                 <v-btn style="min-width:200px">
-                                                    Glaciares
+                                                    Editar proyecto
                                                 </v-btn>
                                             </v-col>
 
                                             <v-col >
                                                 <v-btn style="min-width:200px">
-                                                    Playas
+                                                    Ver colaboradores
                                                 </v-btn>
                                             </v-col>
 
                                             <v-col >
                                                 <v-btn style="min-width:200px">
-                                                    Bosques
+                                                    Ver solicitudes
                                                 </v-btn>
                                             </v-col>
                                         </v-row>
@@ -80,19 +80,19 @@
                                             <h5 class="text-center ">Electronica</h5>
                                             <v-col >
                                                 <v-btn style="min-width:200px">
-                                                    Clasica
+                                                    Editar proyecto
                                                 </v-btn>
                                             </v-col>
 
                                             <v-col >
                                                 <v-btn style="min-width:200px">
-                                                    Banda
+                                                    Ver colaboradores
                                                 </v-btn>
                                             </v-col>
 
                                             <v-col >
                                                 <v-btn style="min-width:200px">
-                                                    Orquesta
+                                                    Ver solicitudes
                                                 </v-btn>
                                             </v-col>
                                         </v-row>
@@ -113,6 +113,7 @@
 </template>
 <script>
     export default {
+        name: "Projects",
 
     }
 </script>

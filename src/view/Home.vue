@@ -4,8 +4,11 @@
             <di class="navbar-nav mr-lg-0">
                 <a href="/">
                     <img class="logo" :src="require('../assets/logo2.png')" alt=""/>
+
                 </a>
+
             </di>
+            <v-card-title>IdeoGo</v-card-title>
             <div class="navbar-nav mr-lg-0">
                 <li class="nav-item">
                     <router-link to="/home" class="nav-link">
@@ -20,7 +23,7 @@
             <div class="navbar-nav mr-lg-0">
                 <li class="nav-item">
                     <router-link to="/Dashboard" class="nav-link">
-                        <font-awesome-icon icon="dashboard"/>
+                        <v-icon left size="25">dashboard</v-icon>
                           Dashboard
                     </router-link>
                 </li>

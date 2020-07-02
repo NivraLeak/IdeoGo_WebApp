@@ -13,7 +13,7 @@ import Dashboard from "./components/Dashboard";
 import EditProfile from "./components/EditProfile";
 import Project from "./view/Project";
 import EditProject from "./components/EditProject";
-
+import Projects from "./components/Projects";
 
 Vue.use(Router);
 
@@ -27,6 +27,7 @@ const router = new Router({
         {path: '/users', name: 'users', component: UsersList},
         {path: '/EditProfile', name: 'editProfile', component: EditProfile},
         {path: '/Project', name: 'project', component: Project},
+        {path: '/Projects', name: 'Projects', component: Projects},
         {path: '/Dashboard', name:'dashboard', component: Dashboard},
         {path: '/EditProject', name:'editProject', component: EditProject},
     ]
