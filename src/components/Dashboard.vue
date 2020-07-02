@@ -47,7 +47,7 @@
                     <find-project></find-project>
                 </v-tab-item>
                 <v-tab-item>
-                    <Projects></Projects>
+                    <DashboardContent :projects="projects"></DashboardContent>
                 </v-tab-item>
                 <v-tab-item>
                     <CreateProject></CreateProject>
@@ -65,7 +65,7 @@
 </template>
 
 <script>
-    // import axios from 'axios'
+    import axios from 'axios'
     import EditProfile from "@/components/EditProfile";
     import CreateProject from "@/components/CreateProject";
     import Projects from "@/components/Projects";
@@ -75,10 +75,12 @@
    // import BaseTable from "./BaseTable";
    // import Profile from "../view/Profile";
     import FindProject from "@/components/FindProject";
+    import DashboardContent from "./DashboardContent";
 
     export default {
         name: "Dashboard",
         components: {
+            DashboardContent,
             //ProfileContent,
             //BaseTable,
            // Home,
@@ -92,6 +94,7 @@
         data: () => ({
             drawer: true,
             selected: '',
+            projects:[],
             title1: 'title',
             title2: 'title',
             title3: 'title',
@@ -108,9 +111,16 @@
         },
         methods: {
             setProject(){
+               axios.get('')
             },
             allProjects(){
+                axios.get('https://ideogoapi20200702063738.azurewebsites.net/api/Project')
+                    .then(response => {
+                        this.projects=response.data;
+                        console.log('Source Projects: ');
+                        console.log(response.data);
 
+                    })
             },
             show(title) {
                 if (title === 'Projects') this.isHidden = !this.isHidden

@@ -146,6 +146,9 @@
     export default {
         el: '#FindProject',
         name: "FindProject",
+        props: {
+            projects: Array
+        },
         search: '',
         headers: [
             {
