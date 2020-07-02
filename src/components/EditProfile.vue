@@ -115,7 +115,7 @@
                 <v-btn v-if="showAcademic" @click="backClick">Back</v-btn>
                 <v-col class="text-right">
                     <v-btn v-if="showPersonal" :class="saveButton" @click="nextClick" bottom center class="white--text"
-                           color="#dbbc3c">Next
+                           color="#de9c3a">Next
                     </v-btn>
                     <v-btn v-if="showAcademic" :class="saveButton" @click="saveClick" bottom center class="white--text"
                            color="#dbbc3c">Save Changes
