@@ -63,7 +63,6 @@
         </v-main>
     </v-app>
 </template>
-
 <script>
     import axios from 'axios'
     import EditProfile from "@/components/EditProfile";
@@ -216,4 +215,5 @@
     }
 
 </style>
+
 
