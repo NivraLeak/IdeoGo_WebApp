@@ -188,6 +188,7 @@
                 types: ['month', 'week', 'day', '4day'],
                 mode: 'stack',
                 modes: ['stack', 'column'],
+
                 weekday: [0, 1, 2, 3, 4, 5, 6],
                 weekdays: [
                     { text: 'Sun - Sat', value: [0, 1, 2, 3, 4, 5, 6] },
@@ -198,12 +199,12 @@
                 value: '',
                 events: [],
                 colors: ['blue', 'indigo', 'deep-purple', 'cyan', 'green', 'orange', 'grey darken-1'],
-                names: ['Meeting', 'Holiday', 'PTO', 'Travel', 'Event', 'Birthday', 'Conference', 'Party'],
+                names: ['', '', '', '', '', '', '', ''],
                 itemCollaborator: [
-                    { icon: true, title: 'Jason Oner', avatar: 'https://cdn.vuetifyjs.com/images/lists/1.jpg' },
-                    { title: 'Travis Howard', avatar: 'https://cdn.vuetifyjs.com/images/lists/2.jpg' },
-                    { title: 'Ali Connors', avatar: 'https://cdn.vuetifyjs.com/images/lists/3.jpg' },
-                    { title: 'Cindy Baker', avatar: 'https://cdn.vuetifyjs.com/images/lists/4.jpg' },
+                    { icon: true, title: 'Jason Oner'},
+                    { title: 'Travis Howard' },
+                    { title: 'Ali Connors' },
+                    { title: 'Cindy Baker' },
                 ],
             }
         ),

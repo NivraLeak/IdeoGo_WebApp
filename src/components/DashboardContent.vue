@@ -25,19 +25,7 @@
                                 <h5 class="text-center ">{{project.description}}</h5>
                                 <v-col>
                                     <v-btn style="min-width:200px">
-                                        Editar proyecto
-                                    </v-btn>
-                                </v-col>
-
-                                <v-col>
-                                    <v-btn style="min-width:200px">
-                                        Ver colaboradores
-                                    </v-btn>
-                                </v-col>
-
-                                <v-col>
-                                    <v-btn style="min-width:200px">
-                                        Ver solicitudes
+                                        Administrar proyectos
                                     </v-btn>
                                 </v-col>
                             </v-row>

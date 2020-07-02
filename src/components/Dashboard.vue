@@ -67,7 +67,7 @@
     import axios from 'axios'
     import EditProfile from "@/components/EditProfile";
     import CreateProject from "@/components/CreateProject";
-    import Projects from "@/components/Projects";
+    //import Projects from "@/components/Projects";
     //import ProfileContent from "./ProfileContent";
     import EditProject from "./EditProject";
     //import Home from "../view/Home";
@@ -83,7 +83,7 @@
             //ProfileContent,
             //BaseTable,
            // Home,
-            Projects,
+            //Projects,
             FindProject,
             CreateProject,
             EditProfile,
