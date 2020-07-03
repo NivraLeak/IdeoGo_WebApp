@@ -182,11 +182,7 @@
                     'Task 3',
                     'Task 4',
                     'Task 5',
-                    'Task 1',
-                    'Task 2',
-                    'Task 3',
-                    'Task 4',
-                    'Task 5',
+
                 ],
                 model: ['Carrots'],
                 type: 'month',
@@ -203,7 +199,7 @@
                 value: '',
                 events: [],
                 colors: ['blue', 'indigo', 'deep-purple', 'cyan', 'green', 'orange', 'grey darken-1'],
-                names: ['Meeting', 'Holiday', 'PTO', 'Travel', 'Event', 'Birthday', 'Conference', 'Party'],
+                names: ['', '', '', '', '', '', '', ''],
                 itemCollaborator: [
                     { icon: true, title: 'Jason Oner', avatar: 'https://cdn.vuetifyjs.com/images/lists/1.jpg' },
                     { title: 'Travis Howard', avatar: 'https://cdn.vuetifyjs.com/images/lists/2.jpg' },
