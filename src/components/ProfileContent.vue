@@ -10,13 +10,12 @@
     </div>
 </template>
 <script>
-//import EditProfileForm from "./EditProfileForm";
+
 import UserCard from "./UserCard";
 import EditProfile from "./EditProfile";
     export default {
         components: {
             EditProfile,
-         //EditProfileForm,
             UserCard
         },
         data() {
